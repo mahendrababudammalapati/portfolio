@@ -1,0 +1,94 @@
+<html>
+	<head>
+		<title>calculator project</title>
+	</head>
+	<style>
+		#cal{
+			width:550px;
+			height:100px;
+			background-color:rgb(240, 240, 240);
+			font-size:50px;
+			border:5px solid slateblue;
+			border-radius:35px;
+			text-align:right;;
+			margin-top:1px;
+			margin-bottom:1px;
+			}
+		#butt{
+			height:50px;
+			padding:10px 10px;
+			border-radius:20px;
+			margin-bottom:2px;
+			background-color:lightgray;
+			padding:30px;
+			margin-left:5px;
+			border:2px solid black;
+			width:115px;			
+		}
+		#butt:hover{
+			background:gray;
+		}
+		#butt,value{
+			font-size:30px;
+			padding-top:10px;
+		}
+		table,tr,td{
+			border:5px solid black;
+			border-radius:20px;
+			background-color:black;
+			border-style:outset;
+			border-block-width: 15px;
+		}
+	</style>
+	<body>
+	<center>
+		<div class="calStyle">
+		<form name="form1" id="calc">
+		<table>
+			<tr>
+				<td colspan=4><input id="cal" placeholder="0" type="text" name="cal1"><td>
+			</tr>
+			<tr>
+				<td colspan="3" style="color:lightgray; font-size:30px; font-weight:bold;">MAHENDRA CALCULATOR</td>
+				<td><input id="butt" type="reset" value="C" onclick="test1()"></td>
+			</tr>
+			<tr>
+				<td><input id="butt" type="button" value="7" onclick="test1(7)"></td>
+				<td><input id="butt" type="button" value="8" onclick="test1(8)"></td>
+				<td><input id="butt" type="button" value="9" onclick="test1(9)"></td>
+				<td><input id="butt" type="button" value="/" onclick="test1('/')"></td>
+			</tr>
+			<tr>
+				<td><input id="butt" type="button" value="4" onclick="test1(4)"></td>
+				<td><input id="butt" type="button" value="5" onclick="test1(5)"></td>
+				<td><input id="butt" type="button" value="6" onclick="test1(6)"></td>
+				<td><input id="butt" type="button" value="*" onclick="test1('*')"></td>
+			</tr>
+			<tr>
+				<td><input id="butt" type="button" value="1" onclick="test1(1)"></td>
+				<td><input id="butt" type="button" value="2" onclick="test1(2)"></td>
+				<td><input id="butt" type="button" value="3" onclick="test1(3)"></td>
+				<td><input id="butt" type="button" value="-" onclick="test1('-')"></td>
+			</tr>
+			<tr>
+				<td><input id="butt" type="button" value="." onclick="test1('.')"></td>
+				<td><input id="butt" type="button" value="0" onclick="test1(0)"></td>
+				<td><input id="butt" type="button" value="=" onclick="test2()"></td>
+				<td><input id="butt" type="button" value="+" onclick="test1('+')"></td>
+			</tr>
+		</table>
+			</form>
+		</div>
+		</center>
+	</body>
+		<script>
+			function test1(num)
+			{
+				document.getElementById('cal').value+=num;
+			}
+			function test2()
+			{
+				document.getElementById('cal').value=eval(document.getElementById('cal').value);
+			}
+		</script>
+</html>

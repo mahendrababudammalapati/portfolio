@@ -1,0 +1,618 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+html{
+    display:inline-block;
+}
+.title{
+    text-shadow: 2px 2px 3px rgb(143, 127, 62);
+}
+.gmail{
+    padding-left:8px;
+}
+.details{
+    /* background-color: black; */
+}
+.name,.gmail,.number{
+    font-family: 'DM Serif Text', serif;
+font-family: 'Tektur', sans-serif;
+}
+.links{
+    text-decoration: none;
+    /* font-weight: bold; */
+    color: black;
+    font-family: 'DM Serif Text', serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Tektur', sans-serif;
+}
+.links:hover{
+    color:brown;
+    font-weight: bold;
+}
+.frontend,.backend,.database,.developertools{
+    color:red;
+}
+/* table:hover{
+    background-color: rgb(244, 242, 242);
+} */
+
+.html:hover{
+    background-image: url(html.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+.frontend:hover{
+    background-image: url(UI.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+.css:hover{
+    background-image: url(css-3.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+.bootstrap:hover{
+    background-image: url(bootstrap.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+.javascript:hover{
+    background-image: url(java-script.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+.typescript:hover{
+    background-image: url(typescript.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+.angular:hover{
+    background-image: url(angular.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+.backend:hover{
+    background-image: url(backend.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+.corejava:hover{
+    background-image: url(java.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+.springboot:hover{
+    background-image: url(leaf.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+.microservices:hover{
+    background-image: url(microservice.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+.database:hover{
+    background-image: url(database.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+.mysql:hover{
+    background-image: url(mysql.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+.developertools:hover{
+    background-image: url(developertools.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+.github:hover{
+    background-image: url(github.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+.postman:hover{
+    background-image: url(postman.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+.vscode:hover{
+    background-image: url(vs\ code.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+.packagemanager:hover{
+    background-image: url(product.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+.calculator-link{
+    text-decoration: none;
+    color:brown;
+}
+.portfolio-link{
+    text-decoration: none;
+    color: brown;
+    font-size:20px;
+}
+.arrow-image{
+    width:70px;
+    height:70px;
+    border-radius: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:150px;
+    box-shadow: 2px 2px 10px gray;
+    animation: bounce 1s infinite;
+}
+@keyframes bounce{
+    0%,100%{
+        transform:translateY(0);
+    }
+    50%{
+        transform: translateY(-60px);
+    }
+}
+@media screen and (min-width:601px) {
+    .title{
+        background-color: rgb(11, 11, 11);
+        height:100vh;
+    }
+    /* .circle{
+        border-radius: 160px;
+        width:50px;
+    } */
+    .welcome{
+        font-family: 'Libre Baskerville', serif;
+        text-align: center;
+        padding-top:42vh;
+        font-size: 50px;
+        color:rgb(220, 118, 22);
+    }
+    .img{
+        border-radius: 120px;
+        width: 15vw;
+        margin-top:10vh;
+    }
+    /* <---------------navbar---------------> */
+    .links{
+        font-size: 23px;
+        padding-left: 15px;
+    }
+    .nav{
+        padding-top: 80px;
+    }
+    /* .education{
+        padding-top:40px;
+        width: 72vw;
+    } */
+    /* <--------------Education------------------> */
+    .education-details{
+        border-left: 10px solid crimson;
+        width: 72vw;
+    }
+    .education-text{
+        text-align: left;
+        margin-top:50px ;
+        margin-left:145px;
+        font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+        color:crimson;
+        position: sticky;
+        top:0;
+    }
+    .btech-text{
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    .diplumo-text{
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    .ssc-text{
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    .spaceBetweenDetails{
+        padding-left: 45px;
+        font-size: 19px; 
+        width:400px; 
+        font-family: 'Noto Sans', sans-serif; 
+    }
+    .education-details-head{
+        font-size:19px;
+        text-align: left;
+        font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+    }
+    /* <---------------Techical skills-----------------> */
+    .technicalskills{
+        border-left: 10px solid rgb(37, 68, 69);
+        width: 72vw;
+    }
+    .skills-text{
+        text-align: left;
+        margin-left: 120px;
+        margin-top: 50px;
+        font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+color: rgb(37, 68, 69);
+position: sticky;
+top:50px;
+    }
+    #main{
+        display: flex;
+        justify-content: center;
+    }
+    .frontend-skills,.backend-skills,.database-skills,.tools-skills{
+        width:280px;  
+        font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+    }
+    .html,.css,.bootstrap,.javascript,.typescript,.angular,.corejava,.springboot,.microservices,.mysql,.github,.postman,.maven,.vscode,.packagemanager{
+        height: 35px;
+        font-family: 'Noto Sans', sans-serif;
+        font-size:20px;
+    }
+    /*<-----------------project------------------>*/
+    .projects-text{
+        text-align: left;
+        margin-left: 153px;
+        margin-top: 50px;
+        font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+color: chocolate;
+position: sticky;
+top:100px;
+    }
+    .projects{
+        border-left: 10px solid chocolate;
+        width:72vw;
+    }
+    .calculator-text{
+        font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+
+    }
+    .calculator-paragraph{
+        font-size:20px;
+        text-align: left;
+        word-spacing: 2px;
+        width: 700px;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    .calculator-image{
+        width:200px;
+        height:200px;
+    }
+    #calculator{
+        display: flex;
+        justify-content: center;
+    }
+    /* <------------Film Director Website--------------> */
+    .filmdirectorwebsite-peragraph{
+        text-align: left;
+        font-size:20px;
+        word-spacing: 2px;
+        width: 900px;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    .film-text{
+        font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+
+    }
+    /* <-----------Portfolio---------------> */
+    .portfolio-peragraph{
+        text-align:left;
+        font-size:19px;
+        word-spacing:2px;
+        width:900px;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    .portfolio-text{
+        font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+    }
+    .portfolio{
+        padding-top:20px;
+    }
+    /* <---------------Certifications----------------> */
+    .certifications-text{
+        text-align: left;
+        margin-left:127px;
+        padding-top:20px;
+        font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+position: sticky;
+top:130px;
+    }
+    .certifications{
+        border-left: 10px solid black;
+        width:72vw;
+    }
+    .msoffice-image{
+        width: 300px;
+        height: 350px;
+    }
+    .msoffice-text{
+        font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+    }
+    .java-text{
+        font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+    }
+    #certifications{
+        display: flex;
+        justify-content: center;
+        padding-top:30px;
+    }
+   /* <-----------------Strengths--------------->  */
+    .strengths-text{
+        text-align: left;
+        margin-left: 147px;
+        padding-top:20px;
+        font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+color:darkgreen;
+position: sticky;
+top:180px;
+    }
+    .strengths{
+        border-left: 10px solid darkgreen;
+        width:72vw;
+    }
+    .strengths-points{
+        font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+    }
+    .strengths-peragraph{
+        width: 700px;
+        text-align: left;
+        font-size: 20px;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    /* <------------Hobbies------------> */
+    .hobbies-text{
+        text-align: left;
+        margin-left: 150px;
+        padding-top: 20px;
+        font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+color:darkred;
+position: sticky;
+top:230px;
+    }
+    .hobbies{
+        border-left: 10px solid darkred;
+        width: 72vw;
+    }
+    .hobbies-points{
+        width:500px;
+        text-align: left;
+        font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+    }
+    .linkedin{
+        width:90px;
+        height:90px;
+        margin-top: 100px;
+    }
+    .resume{
+        width:90px;
+        height:90px;
+        padding-left: 100px;
+    }
+    .thankyou{
+        padding-top:100px;
+        font-size: 50px;
+    }
+}
+@media screen and (max-width:600px) {
+    .title{
+        background-color: rgb(6, 6, 6);
+        height:100vh;
+    }
+    .welcome{
+        font-family: 'Libre Baskerville', serif;
+        text-align: center;
+        padding-top:38vh;
+        font-size: 40px;
+        color:rgb(143, 116, 254);
+    }
+    .img{
+        border-radius: 120px;
+        width: 30vw;
+        margin-top: 10vh;
+    }
+    /* <---------------navbar---------------> */
+    .links{
+        font-size: 18px;
+        padding-left: 17px;
+    }
+    .nav{
+        padding-top: 100px;
+    }
+    #link{
+        margin-top:30px;
+    }
+    /* <--------------Education------------------> */
+    .education-details{
+        border-left: 2px solid crimson;
+        /* width: 89vw;*/ 
+    }
+    .education-text{
+        text-align: left;
+        margin-top:60px ;
+        font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+color: crimson;
+    }
+    .btech-text{
+        font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+    }
+    .diplumo-text{
+        font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+    }
+    .ssc-text{
+        font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+    }
+    .spaceBetweenDetails{
+        padding-left: 5px;
+        font-size: 17px; 
+        width:280px; 
+        font-family: 'Noto Sans', sans-serif; 
+    }
+    .education-details-head{
+        font-size:17px;
+        text-align: left;
+        font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+    }
+    /* <---------------Techical skills-----------------> */
+    .skills-text{
+        text-align: left;
+        padding-top: 20px;
+        font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+color:rgb(60, 108, 109);
+    }
+    .frontend-skills,.backend-skills,.database-skills,.tools-skills{
+        width:300px;  
+        font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+    }
+    .html,.css,.bootstrap,.javascript,.typescript,.angular,.corejava,.sprigboot,.microservices,.mysql,.github,.postman,.maven,.vscode,.packagemanager{
+        height: 27px;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    .technicalskills{
+        border-left: 2px solid black;
+        /* width: 100vw; */
+    }
+     /*<-----------------project------------------>*/
+     .projects-text{
+        text-align: left;
+        margin-top: 50px;
+        font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+color:chocolate;
+    }
+    .projects{
+        border-left: 2px solid chocolate;
+    }
+    .calculator-text{
+        font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+    }
+    .film-text{
+        font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+    }
+    .portfolio-text{
+        font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+    }
+    .calculator-paragraph{
+        text-align: left;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    .calculator-image{
+        width:200px;
+        height:200px;
+    }
+     /* <------------Film Director Website--------------> */
+    .filmdirectorwebsite-peragraph{
+        text-align: left;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    /* <-----------Portfolio---------------> */
+    .portfolio-peragraph{
+        text-align:left;
+        font-family: 'Noto Sans', sans-serif;
+    }
+     /* <---------------Certifications----------------> */
+     .certifications-text{
+        text-align: left;
+        padding-top:20px;
+        font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+    }
+    .certifications{
+        border-left: 2px solid black;
+    }
+    .msoffice-image{
+        width: 50vw;
+        height: 45vh;
+    }
+    .msoffice-text{
+        font-size: 20px;
+        font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+    }
+    .java-text{
+        font-size: 20px;
+        font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+    }
+    /* <-----------------Strengths--------------->  */
+    .strengths-text{
+        text-align: left;
+        padding-top:20px;
+        font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+color: darkgreen;
+    }
+    .strengths{
+        border-left: 2px solid darkgreen;
+    }
+    .strengths-peragraph{
+        text-align: left;
+        font-size: 17px;
+        width: 400px;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    .strengths-points{
+        font-size: 21px;
+        font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+    }
+     /* <------------Hobbies------------> */
+     .hobbies-text{
+        text-align: left;
+        padding-top: 20px;
+        font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+color: darkred;
+    }
+    .hobbies{
+        border-left: 2px solid darkred;
+    }
+    .hobbies-points{
+        width:300px;
+        text-align: left;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    .linkedin{
+        width:90px;
+        height:90px;
+        margin-top: 100px;
+    }
+    .resume{
+        width:90px;
+        height:90px;
+        padding-left: 80px;
+    }
+    .hobbies-points-text{
+        font-size:20px;
+        font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+    }
+    .thankyou{
+        padding-top:80px;
+        font-size: 40px;
+    }
+}
